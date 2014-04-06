@@ -1,5 +1,16 @@
 .title {
   text-align: center;
+  letter-spacing: 8px;
+}
+
+blockquote{
+  font-style: italic;
+  text-align: justify;
+}
+
+footer{
+  font-style: normal;
+  text-align: right;
 }
 
 body {
@@ -10,6 +21,18 @@ body {
   margin-right: auto;
 }
 
+h2{
+  text-transform: uppercase;
+  border-top: medium solid black;
+  border-bottom: thin solid black;
+  letter-spacing: 5px;
+  font-size: x-large;
+}
+
+dd{
+  display: inline-block;
+}
+
 .subtitle {
   text-align: center;
   font-style: italic;
@@ -17,8 +40,10 @@ body {
 }
 
 h2 small {
-  font-size: medium;
+  font-size: small;
   font-style: italic;
+  letter-spacing: normal;
+  text-transform: none;
 }
 
 .schedule{
