@@ -29,8 +29,12 @@ h2{
   font-size: x-large;
 }
 
+dt{
+  float:left;
+}
+
 dd{
-  display: inline-block;
+  margin-left: 200px;
 }
 
 .subtitle {
@@ -46,18 +50,35 @@ h2 small {
   text-transform: none;
 }
 
+table{
+  border-collapse: collapse;
+  margin-left: 65px;
+}
+
+td{
+  border-collapse: collapse;
+  border: thin solid;
+}
+
+th{
+  border-collapse: collapse;
+  border:thin solid;
+  background-color: black;
+  color: white;
+}
+
 .schedule{
   border: thin blue;
 }
 
 .week{
   -webkit-transform: rotate(-90deg);
+  text-transform: uppercase;
 }
 
-.oddweek{
-
+.odd_week{
+  background-color: lavender;
 }
-
 
 
 
