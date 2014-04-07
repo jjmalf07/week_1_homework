@@ -15,4 +15,28 @@ h1{
 	width: 33%;
 }
 
+.screenshot{
+	float: left;
+	width: 66%;
+}
+
+.bottom{
+	float: left;
+	width: 25%;
+}
+
+.section{
+	clear: both;
+}
+
+.button{
+  color: white;
+  text-decoration: none;
+  height: 30px;
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 20px;
+  background-color: blue;
+}
 
